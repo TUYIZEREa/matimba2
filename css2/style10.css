@@ -1,0 +1,140 @@
+.aboutus{
+width: 100%;
+border: 1px solid black;
+color: rgb(10, 1, 1);
+
+
+}
+.footer1{
+    
+     
+    margin-top:12px;
+     height:400px; margin-left:20px;
+    border-radius:5px;
+     margin-bottom:50px;
+    background-color: rgb(109, 106, 106);
+}
+
+/* form css codes */
+
+
+/* Member card styles */
+.member1 {
+  
+    background-color: rgb(204, 211, 211);
+    width: 60%;
+    max-width: 400px; /* Limit maximum width for responsiveness */
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 auto; /* Center the element */
+    margin-bottom: 20px; /* Add spacing between elements */
+    padding: 20px; /* Add internal padding */
+    box-sizing: border-box; /* Include padding in the width */
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Form styles */
+.member1 form {
+    margin-bottom: 10px;
+}
+
+.member1 input[type="text"],
+.member1 input[type="number"],
+.member1 input[type="email"],
+.member1 input[type="password"] {
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    padding: 8px; /* Reduced padding for inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+.member1 input[type="submit"],
+.member1 input[type="reset"],
+.member1 a {
+    background-color: #4CAF50;
+    color: rgb(60, 58, 58);
+    padding: 8px; /* Reduced padding for buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default link underline */
+    display: inline-block; /* Ensure buttons are displayed inline */
+}
+
+/* Header styles */
+.hder {
+    background-color: #bbc7d4;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: 2px solid #a0a0a0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 600px) {
+    .member1 {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+}
+/* ......................................report css..................................... */
+.report {
+    max-width: 600px; /* Maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    overflow: auto; /* Enable vertical and horizontal scrolling if necessary */
+}
+
+/* Table styles */
+.report table {
+    width: 100%; /* Full width within the container */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.report th, .report td {
+    border: 1px solid #ddd;
+    padding: 5px; /* Reduced padding for cells */
+    text-align: center;
+}
+
+.report th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Link styles */
+.report a {
+    color: #f691a0;
+    text-decoration: none;
+}
+
+.report a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 600px) {
+    .report {
+        padding: 10px; /* Reduced padding */
+        font-size: 8px; /* Adjusted font size */
+    }
+
+    .report th, .report td {
+        padding: 3px; /* Reduced padding for cells */
+    }
+    .hder {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+        padding: 8px; /* Adjusted padding */
+    }
+}
+ /* ....................................................................................... */
